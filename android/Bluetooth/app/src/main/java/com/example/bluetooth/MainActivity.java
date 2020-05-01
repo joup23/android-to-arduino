@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ConnectedThread mConnectedThread;
 
-    private static  final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
+    private static  final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");   //유니크아이디 자신만에 아이디를 만듬
     private static String address = "98:D3:31:F5:12:07";//바꾸기
     @Override
     protected void onCreate(Bundle savedInstanceState) {
